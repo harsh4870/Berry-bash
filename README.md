@@ -1,9 +1,4 @@
 # Quickly Build A Multi Modal Quiz & Dictionary Alexa Skill
-<img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/quiz-game/header._TTH_.png" />
-
-[![Voice User Interface](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/1-off._TTH_.png)](./instructions/1-voice-user-interface.md)[![Lambda Function](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/2-off._TTH_.png)](./instructions/2-lambda-function.md)[![Connect VUI to Code](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/3-off._TTH_.png)](./instructions/3-connect-vui-to-code.md)[![Testing](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/4-off._TTH_.png)](./instructions/4-testing.md)[![Customization](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/5-off._TTH_.png)](./instructions/5-customization.md)[![Publication](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/6-off._TTH_.png)](./instructions/6-publication.md)
-
-<img src="https://i.imgur.com/8RgEEkG.jpg" height="200" width="200"/><img src="https://i.imgur.com/NK1PKH0.jpg" height="200" width="200"/><img src="https://i.imgur.com/lZV6SNV.jpg" height="200" width="200"/><img src="https://i.imgur.com/3moAoF6.jpg" height="200" width="200"/>
 
 # Adding screens to your voice experience
 
@@ -11,9 +6,6 @@ This Alexa sample skill demonstrates the use of interactive render template dire
 
 If this is your first time here, you're new to Alexa Skills Development, or you're looking for more detailed instructions, click the **Get Started** button below:
 
-<p align='center'>
-<a href='./instructions/0-intro.md'><img src='https://camo.githubusercontent.com/db9b9ce26327ad3bac57ec4daf0961a382d75790/68747470733a2f2f6d2e6d656469612d616d617a6f6e2e636f6d2f696d616765732f472f30312f6d6f62696c652d617070732f6465782f616c6578612f616c6578612d736b696c6c732d6b69742f7475746f7269616c732f67656e6572616c2f627574746f6e732f627574746f6e5f6765745f737461727465642e5f5454485f2e706e67'></a>
-</p>
 
 If you're slightly more advanced or familiar with SMAPI (Skill Management API), jump to the **Setup w/ ASK CLI** section below.
 
@@ -55,13 +47,13 @@ Alexa, ask Berry Bash to tell me about raspberries
 1. Clone the repository
 
 	```bash
-	$ git clone https://github.com/alexa/skill-sample-nodejs-berry-bash.git
+	$ git clone https://github.com/harsh4870/Berry-bash.git
 	```
 
 2. Initiatialize the [ASK CLI](https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-kit-command-line-interface.html) by Navigating into the repository and running npm command: `ask init`. Follow the prompts.
 
 	```bash
-	$ cd skill-sample-nodejs-berry-bash
+	$ go inside folder
 	$ ask init
 	```
 
@@ -122,16 +114,3 @@ ASK CLI will create the skill and the lambda function for you. The Lambda functi
 
 	Change the model defintion to replace the invocation name and the sample phrase for each intent.  Repeat the operation for [each locale](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/developing-skills-in-multiple-languages) you are planning to support.
 
-## Additional Resources
-
-### Community
-* [Amazon Developer Forums](https://forums.developer.amazon.com/spaces/165/index.html) - Join the conversation!
-* [Hackster.io](https://www.hackster.io/amazon-alexa) - See what others are building with Alexa.
-
-### Tutorials & Guides
-* [Voice Design Guide](https://developer.amazon.com/designing-for-voice/) - A great resource for learning conversational and voice user interface design.
-* [CodeAcademy: Learn Alexa](https://www.codecademy.com/learn/learn-alexa) - Learn how to build an Alexa Skill from within your browser with this beginner friendly tutorial on CodeAcademy!
-
-### Documentation
-* [Official Alexa Skills Kit Node.js SDK](https://www.npmjs.com/package/alexa-sdk) - The Official Node.js SDK Documentation
-*  [Official Alexa Skills Kit Documentation](https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html) - Official Alexa Skills Kit Documentation
